@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/students
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNzM2ODI3ODc5LCJleHAiOjE3Mzk0MTk4Nzl9.SKyjkj2ZclNLDG0mdtYKoLEiFazATyHmrraGc1TUyhM
+
+{
+    "data":{
+        "name": "Siraprapa Jundoung",
+        "mobile": "0800600327",
+        "cardId": "1368700003978"
+    }
+}
+
+{
+    "data":{
+        "name": "Thanachai Loklueng",
+        "mobile": "0943301218",
+        "cardId": "1600101914175"
+    }
+}
